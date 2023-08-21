@@ -22,7 +22,6 @@ sp = spotipy.Spotify(
         username="USERNAME",
     )
 )
-
 user_id = sp.current_user()["id"]
 
 #Searching Spotify for songs by title
